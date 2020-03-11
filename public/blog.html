@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Blog</title>
+		<link href="style.css" rel="stylesheet"/>
+		<script src="post.js" charset="utf-8" defer></script>
+	</head>
+	<body>
+		<div class="header">
+			<img src="img/typewriter.jpg" width=100% class="header-img">
+    	<nav>
+				<li class="navi"><a href="../index.html"><em>Main</em></a>
+				<li class="navi"><a class="z" href="blog.html"><em>Blog!</em></a>
+				<li class="navi"><a href="Metro.html"><em>Metro!</em></a>
+					<li class="navi"><a href="satisfactorio.html"><em>Satisfactorio!</em></a>				
+			</nav>
+    </div>
+    <div class="box" id="posts">
+    	<h2>Blog: June 3rd, 2019</h2>
+			<p>The challenging part of this assignment was getting the handlebars to work, and making the twits display their text when showing only one twit. I learned a lot about serverside code and handlebars from this assignment. For this assignment I used the lecture notes mostly, as those had everything needed.</p>
+    	<h2>Blog: May 20th, 2019</h2>
+			<p>When doing this assignment, all was going well until I got to the portion where files are opened and sent to the client. This was mostly solved by making a dedicated function to load the files into a table. From this assignment, I learned quite abit about nodejs filesystem. The most useful resource was stack exchange, where I found posts of people that had similar problems to me, and I could adapt their soulutions to my own porposes. However, as I ended up rewriting most of the code, those posts became mostly useless when I figured out a better way of doing the file sending.</p>
+    	<h2>Blog: May 13th, 2019</h2>
+			<p>The most difficult portion of this assignment was searching through the twits. At first I was using for loops to look through text from each element, however upon discovery of <em>.textContent</em> everything was made easy. I learned a lot about how js works and how to create new html elements with it. <a href="https://www.w3schools.com"><em>W3Schools.com</em></a> was helpful for this assignment as well.</p>
+    	<h2>Blog: April 22nd, 2019</h2>
+			<p>Assignment 2 was a bit more difficult than the first assignment. The main problems I had was getting the links to be the appropriate colors, making the navbar look right, and bending the flexboxes to my will. I learned a lot about specificity as that was the issue with link colors. A helpful website I found was <a href="https://www.w3schools.com"><em>W3Schools.com</em></a>, it is full of documentation for css, html, javascript, and is all around usefull for learning how certain elements work in a website.</p>
+			<h2>Blog: April 7th, 2019</h2>
+			<p>This assignment was quite easy. I even added a page for dogs. The whole assignemnt only took about 15 or so minutes as I had followed along with the lecture on html, then removed unnessicary things. I learned quite a bit about web development and hope to learn more so I can make a horrible 90s style page for fun (I'm talking particle effects, sounds, crappy animations, the whole 9 yards).</p>
+		</div>
+		<form  id="postForm" class="box">
+			<h2>New post:</h2>
+			<textarea id="ftitle" placeholder="Title:" rows="1" id="titBox"></textarea>
+			<textarea id="ftext" placeholder="Text:"rows="15" id="texBox"></textarea>
+			<input id="fbutton" type="button" value="Submit">
+		</form>
+		<div class="footer"></div>
+		<p class="smol-box"><a href="../index.html"><em>Back!</em></a><p>
+	</body>
+</html>

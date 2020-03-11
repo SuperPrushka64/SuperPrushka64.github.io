@@ -1,0 +1,24 @@
+{
+  "name": "SP64-site-server",
+  "version": "0.0.1a",
+  "description": "Server for SuperPrushka64's website",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osu-cs290-sp19/master-assignment-5.git"
+  },
+  "author": "SuperPrushka64",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osu-cs290-sp19/master-assignment-5/issues"
+  },
+  "homepage": "https://github.com/osu-cs290-sp19/master-assignment-5#readme",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "start": "node server.js",
+  "prestart": "npm run build",
+  "scripts": {
+  	"build": ""
+  }
+}
